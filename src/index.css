@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  padding: 2px 20px;
+  background-color: white;
+  align-items: center;
+  /* background-color: #5CDB94; */
+  color: #05396B;
+  border-bottom: 1px solid whitesmoke;
+}
+.navbar button{
+  border: 2px solid #05396B;
+  background-color: transparent;
+  padding: 5px 10px;
+  font-size: 14px;
+  font-weight: bold;
+
+}
+.home{
+  min-height: 80vh;
+  background-color: #5CDB94;
+  background-image: url(./privateRoutes/images/back2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.homemain{
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.homemain .inputdiv{
+  /* background-color: red; */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.homemain .inputdiv h2{
+  color:white;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 25px;
+}
+.homemain .inputdiv .inputmain{
+  width: 50%;
+  display: flex;
+}
+.homemain .inputdiv input{
+  flex: 1;
+  padding: 10px 10px;
+  border: none;
+  outline: none;
+
+}
+.homemain .inputdiv .inputmain button{
+  width: 80px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+.homemain .inputdiv .inputmain svg{
+  font-size: 20px;
+}
+.detail .title{
+  font-size: 50px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.detail .subtitle{
+  font-size: 17px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.detail .btn{
+  margin-left: 10px!important;
+}
+.detail .descrip{
+  font-size: 30px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
