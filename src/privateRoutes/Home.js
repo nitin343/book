@@ -19,7 +19,7 @@ function Home() {
 
     console.log((data))
     setbooklist(data?.items)
-    const dataupdate  = await axios.patch(`http://localhost:8080/user/update`, { email: user.email,key:value })
+    const dataupdate  = await axios.patch(`https://backbooknew.herokuapp.com/user/update`, { email: user.email,key:value })
 
   }
   return (

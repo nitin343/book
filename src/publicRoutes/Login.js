@@ -11,7 +11,7 @@ export default function Login() {
     signInWithPopup(auth, provider).then(async (user) => {
 
       console.log(user)
-      const { data } = await axios.post(`http://localhost:8080/user/regis`, { email: user.user.email })
+      const { data } = await axios.post(`https://backbooknew.herokuapp.com/user/regis`, { email: user.user.email })
     }).catch((err) => {
       console.log(err)
     })
